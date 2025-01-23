@@ -13,17 +13,17 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '7d757db826bb3eb2fd14ced8bf949aaa',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '湖北',
+  CITY: '丹江口',
 
   USERS: [
     {
       // 想要发送的人的名字
       name: '小缘宝宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'lgPHgaTlfTrYc__pW0qzv8vDNmYzDsf-WaFHjwB8s8A',
+      id: 'oeUhM7NEROmSE6g9x0opP0bYsEsA',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'lgPHgaTlfTrYc__pW0qzv8vDNmYzDsf-WaFHjwB8s8A',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '07-14',
       festivals: [
@@ -49,7 +49,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'lgPHgaTlfTrYc__pW0qzv8vDNmYzDsf-WaFHjwB8s8A',
 
   CALLBACK_USERS: [
     {
